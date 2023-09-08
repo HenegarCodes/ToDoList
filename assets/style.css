@@ -1,0 +1,40 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+   
+
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    
+    background: linear-gradient(to bottom right, blue, pink);
+    margin: 0;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+.box1 {
+    position: relative;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: -10px 3px 25px black;
+}
+
+#form {
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+input,
+button {
+    border-radius: 5px;
+}
+
+
+
+
